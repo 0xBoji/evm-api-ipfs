@@ -1,0 +1,15 @@
+{
+  "name": "Galxe",
+  "version": "0.0.1",
+  "author": "Galxe",
+  "description": "Galxe OAT",
+  "website": "https://github.com/snapshot-labs/snapshot/tree/develop/src/plugins/projectGalaxy",
+  "icon": "https://ipfs.io/ipfs/bafkreibjxoeegwucimd4hjfn3xmxrmkes3je5gwa723gaqosirzgewutfq",
+  "defaults": {
+    "space": {
+      "oats": {
+        "<Proposal ID>": "<Space Name>/campaign/<Campaign ID>"
+      }
+    }
+  }
+}

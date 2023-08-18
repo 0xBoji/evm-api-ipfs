@@ -1,0 +1,803 @@
+{
+  "searchPlaceholder": "Rechercher",
+  "spaceCount": "{0} espace(s)",
+  "createSpace": "Créer un espace",
+  "backToHome": "Accueil",
+  "actions": "Actions",
+  "poweredBy": "Powered by",
+  "results": "Résultats",
+  "resultsError": "Les résultats n’ont pas pu être calculés. C’est habituellement dû à une stratégie mal configurée ou à un RPC désynchronisé impliqué dans la stratégie.",
+  "resultsCalculating": "Les résultats finaux sont en cours de calcul. Si vous voyez toujours ce message après quelques minutes, contactez l'administrateur de l'espace.",
+  "votingPowerFailedMessage": "Votre voting power n’a pas pu être calculé. C’est habituellement dû à une stratégie mal configurée ou à un RPC désynchronisé impliqué dans la stratégie.",
+  "votingValidationFailedMessage": "Il y a eu une erreur de notre côté et nous n'avons pas pu vérifier si vous êtes éligible au vote. Cela est souvent dû à une validation de vote mal configurée ou à une API non réactive impliquée dans la validation.",
+  "notValidVoterMessage": "Oups, vous ne semblez pas être éligible au vote sur cette proposition.",
+  "getHelp": "Obtenir de l’aide",
+  "retry": "Réessayer",
+  "currentResults": "Résultats actuels",
+  "reset": "Réinitialiser",
+  "close": "Fermer",
+  "save": "Enregistrer",
+  "author": "Auteur",
+  "next": "Suivant",
+  "choice": "Choix",
+  "submit": "Valider",
+  "plugins": "Plugins",
+  "information": "Informations",
+  "confirm": "Confirmer",
+  "snapshot": "Snapshot",
+  "strategies": "Stratégie(s)",
+  "strategiesPage": "Stratégies",
+  "space": "Espace",
+  "spaces": "Espaces",
+  "verifiedSpace": "Espace vérifié",
+  "warningSpace": "Cet espace a été signalé comme potentiellement malveillant. Faites preuve de prudence.",
+  "version": "Version",
+  "timeline": "Timeline",
+  "ended": "terminé",
+  "started": "commencé",
+  "filters": "Filtres",
+  "allSpaces": "Tous les espaces",
+  "submitOnchain": "Envoyer on-chain",
+  "inSpaces": "Dans {0} espace(s)",
+  "votes": "Votes",
+  "seeMore": "Voir plus",
+  "seeAll": "Voir tout",
+  "network": "Réseau",
+  "networks": "Réseaux",
+  "skins": "Thèmes",
+  "spaceMembers": "Membres",
+  "members": "Aucun membre | {count} membre | {count} membres",
+  "editStrategy": "Modifier la stratégie",
+  "invalidProposals": "Propositions incorrectes",
+  "account": "Compte",
+  "create3box": "Créer un profil sur 3Box",
+  "view3box": "Voir le profil sur 3Box",
+  "edit3box": "Éditer le profil sur 3Box",
+  "connectWallet": "Connexion",
+  "toggleSkin": "Activer le thème",
+  "about": "À propos",
+  "license": "Licence",
+  "showMore": "Voir plus",
+  "voted": "Voté",
+  "reload": "Rafraîchir",
+  "ipfsServer": "Serveur IPFS",
+  "hub": "Hub",
+  "cancel": "Annuler",
+  "delete": "Supprimer",
+  "demoSite": "Ceci est le site de démonstration, testez-le !",
+  "removeDelegation": "Révoquer la délégation",
+  "confirmRemove": "Êtes-vous sûr de vouloir révoquer votre délégation à",
+  "removeSpace": "pour l'espace {0}",
+  "noVotingPower": "Oops, it seems you don't have any voting power at block {blockNumber}.",
+  "quorumReached": "quorum atteint",
+  "options": "Option(s)",
+  "votingPower": "Votre voting power",
+  "comment": {
+    "placeholder": "Partagez votre raison (facultatif)"
+  },
+  "receipt": "Reçu",
+  "relayer": "Relayer",
+  "verifyOnMycrypto": "Vérifier le reçu sur MyCrypto",
+  "verifyOnSignatorio": "Vérifier sur Signator.io",
+  "isCore": "Core",
+  "notificationsBlocked": "Votre navigateur bloque les notifications",
+  "notificationsNotSupported": "Votre navigateur ne prend pas en charge les notifications",
+  "walletNotSupported": "Le wallet n’est pas compatible",
+  "seeInExplorer": "Explorer",
+  "learnMore": "En savoir plus",
+  "logout": "Se déconnecter",
+  "continue": "Continuer",
+  "add": "Ajouter",
+  "edit": "Éditer",
+  "strategyParameters": "Paramètres de la stratégie",
+  "addAction": "Ajouter une action",
+  "removeAction": "Supprimer l'action",
+  "yourChoice": "Choix {0}",
+  "targetAddress": "Adresse de destination",
+  "value": "Valeur",
+  "date": "Données",
+  "marketDetails": "Détails du marché",
+  "addMarket": "Ajouter un marché",
+  "selectNetwork": "Sélectionnez un réseau",
+  "conditionId": "ID de condition",
+  "basetokenAddress": "Adresse du token de base",
+  "quoteAddress": "Adresse de la monnaie de cotation",
+  "removeMarket": "Supprimer le marché",
+  "back": "Retour",
+  "loading": "Chargement...",
+  "predictedImpact": "Impact prévu",
+  "marketSymbol": "{0} marché",
+  "twoChoicesRequired": "Deux choix sont requis pour ce plugin.",
+  "noResultsFound": "Oups, nous n'avons trouvé aucun résultat",
+  "createFirstProposal": "Créer votre première proposition",
+  "noSpacesJoined": "Oups, vous n'avez pas encore rejoint d'espaces",
+  "addFavorites": "Ajouter aux favoris",
+  "createdBy": "Par {0}",
+  "startIn": "début {0}",
+  "endIn": "fin {0}",
+  "proposalTimeLeft": "{0} restant(s)",
+  "endedAgo": "terminé {0}",
+  "proposalBy": "par {0}",
+  "endDate": "fin {0}",
+  "defaultSkin": "Thème par défaut",
+  "select": "Sélectionnez",
+  "language": "Langage",
+  "agree": "J'accepte",
+  "moderators": "Modérateurs",
+  "playground": "Playground",
+  "strategyParams": "Paramètres de la stratégie",
+  "addresses": "Adresses",
+  "networkErrorPlayground": "Erreur réseau - veuillez ouvrir la console de votre navigateur pour plus d'informations",
+  "upload": "Upload",
+  "join": "Rejoindre",
+  "joined": "Abonné",
+  "leave": "Se désabonner",
+  "subspaces": "Sous-espaces",
+  "mainspace": "Espace principal",
+  "copyLink": "Copier le lien",
+  "duplicate": "Dupliquer",
+  "joinedSpaces": "Espaces rejoints",
+  "joinSpaces": "Rejoindre un espace",
+  "setDelegationToSpace": "Limiter la délégation à un espace précis",
+  "theCurrentNetwork": "le réseau actuel",
+  "optional": "(facultatif)",
+  "homeLoadmore": "Afficher plus",
+  "confirmAction": "Confirmer l’action",
+  "or": "ou",
+  "share": "Partager",
+  "shareOnTwitter": "Partager sur Twitter",
+  "shareOnLenster": "Partager sur Lenster",
+  "createButton": "Créer",
+  "discussion": "Discussion",
+  "changeWallet": "Changer de wallet",
+  "createASpace": "Créer un espace",
+  "getStarted": "Commencer",
+  "skip": "Ignorer",
+  "newSpaceNotice": {
+    "header": "Votre espace est live !",
+    "mainText": "You can change how voting power is calculated via strategies in your {settings}. Changes to your settings will only affect new proposals, existing proposals can not be changed.",
+    "learnMore": "Apprenez-en plus dans la {documentation} ou joignez-vous au {discord} Snapshot pour obtenir de l’aide.",
+    "gotIt": "Compris !"
+  },
+  "errors": {
+    "required": "Le champ est requis",
+    "minLength": "Le champ est requis",
+    "maxLength": "Longueur maximale de {0}",
+    "pattern": "Caractère invalide",
+    "minItems": "Minimum {0} élément(s) requis",
+    "maxItems": "Maximum {0} item(s) allowed",
+    "minStrategy": "Au moins une stratégie est requise.",
+    "website": "L’URL doit être dans le format https://www.example.com",
+    "format": "Format invalide",
+    "type": "Type invalide",
+    "unsupportedImageType": "Type de fichier incompatible, Formats compatibles sont jpeg, jpg et png",
+    "invalidAddress": "Adresse invalide"
+  },
+  "create": {
+    "proposalTitle": "Titre",
+    "discussion": "Discussion (facultatif)",
+    "categorie(s)": "Sélectionnez jusqu’à 2 catégorie(s)",
+    "proposalDescription": "Description (facultatif)",
+    "preview": "Aperçu",
+    "choices": "Choix",
+    "addChoice": "Ajouter un choix",
+    "startDate": "Sélectionnez la date de début",
+    "endDate": "Sélectionnez la date de fin",
+    "startTime": "Sélectionnez l’heure de début",
+    "endTime": "Sélectionnez l'heure de fin",
+    "publish": "Publier",
+    "untitled": "Sans titre",
+    "snapshotBlock": "Numéro du bloc Snapshot",
+    "voting": "Vote",
+    "votingSystem": "Système de vote",
+    "choice": "Choix {0}",
+    "period": "Période de vote",
+    "start": "Début",
+    "end": "Fin",
+    "days": "Jours",
+    "hours": "Heures",
+    "minutes": "Minutes",
+    "schedule": "Planifier une proposition",
+    "delayEnforced": "L’espace impose un délai jusqu’à ce que le vote puisse commencer",
+    "periodEnforced": "L’espace impose la durée de la période de vote",
+    "typeEnforced": "{type} is enforced by the space",
+    "privacyEnforced": "{type} is enforced by the space",
+    "edit": "Modifier",
+    "continue": "Continuer",
+    "now": "Maintenant",
+    "votingPeriodExplainer": "Ceci représente la période pendant laquelle les utilisateurs pourront voter. La proposition sera visible et en attente avant le début de la période de vote.",
+    "uploadImageExplainer": "Ajouter des images en les glissant-déposant, en les sélectionnant, ou en les collant.",
+    "uploading": "Image en cours d’envoi",
+    "markdown": "Le style de Markdown est compatible",
+    "validationWarning": {
+      "basic": {
+        "member": "Vous devez être auteur dans cet espace pour soumettre une proposition.",
+        "minScore": "Vous devez posséder un minimum de {0} {1} pour soumettre une proposition."
+      },
+      "customValidation": "Vous devez approuver la validation de la proposition pour soumettre une proposition.",
+      "executionError": "La vérification de votre admissibilité à créer des propositions dans cet espace a échoué. C’est probablement dû à une stratégie mal configurée."
+    },
+    "errorGettingSnapshot": "Nous avons rencontré une erreur lors de la récupération du numéro de bloc nécessaire pour calculer votre voting power. Veuillez réessayer plus tard."
+  },
+  "delegate": {
+    "header": "Déléguer",
+    "selectDelegate": "Sélectionner une délégation",
+    "to": "Vers",
+    "addressPlaceholder": "Adresse ou ENS",
+    "delegations": "Vos délégation(s)",
+    "allSpaces": "Pour tous les espaces",
+    "delegated": "Vous délègue",
+    "pendingTransaction": "aucune transaction en attente | 1 transaction en attente | {count} transactions en attente",
+    "topDelegates": "Meilleurs délégués",
+    "noDelegatesFoundFor": "Pas de délégués trouvés pour {0}",
+    "noValidEns": "Adresse ENS invalide.",
+    "noValidAddress": "Adresse invalide",
+    "delegateToSelf": "Vous ne pouvez pas déléguer à vous-même",
+    "delegateToSelfAddress": "Vous ne pouvez pas déléguer à votre propre adresse ENS",
+    "noValidSpaceId": "ID d’espace invalide",
+    "noDelegationsAndDelegates": "Vous ne trouvez pas vos délégations ni vos délégués ? Assurez-vous d’être connecté au bon réseau.",
+    "delegateNotSupported": "Actuellement, la délégation n’est pas compatible pour {network}."
+  },
+  "proposal": {
+    "castVote": "Votez",
+    "vote": "Vote",
+    "startDate": "Date de début ",
+    "endDate": "Date de fin",
+    "votingSystem": "Système de vote",
+    "privacy": "Confidentialité",
+    "invalidChoice": "Choix invalide",
+    "postVoteModal": {
+      "defaultTitle": "Votre vote est enregistré !",
+      "gnosisSafeTitle": "Votre vote est en attente...",
+      "gnosisSafeDescription": "Les votes avec un Safe nécessitent des signataires supplémentaires et seront visibles une fois la transaction confirmée.",
+      "seeQueue": "Voir les transactions en attente",
+      "tips": {
+        "1": "Les votes peuvent être modifiés tant que la proposition est active"
+      }
+    },
+    "downloadCsvVotes": "Télécharger en tant que CSV",
+    "preparingCsvVotes": "Préparation du fichier"
+  },
+  "proposals": {
+    "header": "Propositions",
+    "new": "Nouvelle proposition",
+    "noProposals": "Il n'y a pas encore de propositions ici !",
+    "createProposal": "Créer une proposition",
+    "showMore": "Afficher plus",
+    "showLess": "Afficher moins",
+    "states": {
+      "all": "Tous",
+      "core": "Officiel",
+      "community": "Communauté",
+      "active": "Actif",
+      "pending": "En attente",
+      "closed": "Clos"
+    }
+  },
+  "notifications": {
+    "header": "Notifications",
+    "noNotifications": "Vous n’avez pas de notifications",
+    "proposalStarted": "La proposition a commencé :",
+    "proposalEnded": "La proposition est close :",
+    "markAllAsRead": "Marquer tous comme lu",
+    "all": "Tout",
+    "unread": "Non lus"
+  },
+  "modalTerms": {
+    "mustAgreeTo": "To {action} this space, you must agree to the {spaceName} terms of service.",
+    "actionJoin": "rejoindre",
+    "actionCreate": "créer une proposition dans",
+    "actionVote": "vote in"
+  },
+  "settings": {
+    "header": "Réglages",
+    "editController": "Modifier le controller",
+    "connectWithSpaceOwner": "Vous êtes en mode lecture seule, pour modifier les paramètres de l'espace, connectez-vous avec un contrôleur ou un wallet administrateur.",
+    "gnosisWrongNetwork": {
+      "base": "Your Gnosis Safe is on the wrong network. Please connect to {network} to {action}.",
+      "settings": "éditer les paramètres de l'espace",
+      "create": "créer une proposition",
+      "vote": "voter sur cette proposition"
+    },
+    "currentSpaceControllerIs": "Le controller de l’espace actuel est {address}",
+    "newController": "Nouveau controller",
+    "noRecord": "No text-record found. Make sure you have registered {id} domain on {network}, then edit the controller text-record to regain access to the space settings.",
+    "set": "Appliquer",
+    "profile": "Profil",
+    "avatar": "Avatar",
+    "name": {
+      "label": "Nom",
+      "placeholder": "p. ex. Yam Network"
+    },
+    "about": {
+      "label": "À propos",
+      "placeholder": "Quel est le but de votre organisation ?"
+    },
+    "categories": {
+      "label": "Catégorie(s)",
+      "select": "Sélectionner la/les catégorie(s)"
+    },
+    "terms": {
+      "label": "Conditions d'utilisation",
+      "information": "Les utilisateurs devront accepter ces conditions une fois avant de pouvoir créer une proposition ou voter"
+    },
+    "hideSpace": "Cacher l'espace de la page d'accueil",
+    "links": "Réseaux Sociaux",
+    "subspaces": {
+      "label": "Sous-espaces",
+      "information": "Sub-spaces will only be shown once configured on both the main space and the sub-space(s). {docs}",
+      "parent": {
+        "label": "Espace principal",
+        "placeholder": "pistachiodao.eth",
+        "information": "L'espace dont cet espace est un sous-espace sera affiché sur la page de l'espace"
+      },
+      "children": {
+        "label": "Sous-espaces",
+        "placeholder": "pistachiodao.eth",
+        "information": "Les sous-espaces apparentés listés ici seront affichés sur la page d'espace"
+      }
+    },
+    "website": "Site web",
+    "strategies": {
+      "label": "Stratégie(s)",
+      "information": "Les stratégies sont utilisées pour déterminer le voting power ou si un utilisateur est autorisé à créer une proposition"
+    },
+    "network": {
+      "label": "Réseau",
+      "information": "Le réseau par défaut utilisé pour cet espace. Les réseaux peuvent également être spécifiés dans les stratégies individuelles"
+    },
+    "symbol": {
+      "label": "Symbole",
+      "information": "Le symbole par défaut utilisé sur cet espace, généralement le symbole du jeton, p. ex. BAL pour Balancer"
+    },
+    "strategiesList": "Sélectionnez jusqu'à 8 stratégies",
+    "votingPowerIsCumulative": "Le voting power est cumulatif",
+    "addStrategy": "Ajouter une stratégie",
+    "testInPlayground": "Tester sur playground",
+    "admins": {
+      "label": "Administrateurs",
+      "information": "Les administrateurs peuvent modifier les paramètres et gérer les propositions de l'espace"
+    },
+    "authors": {
+      "label": "Auteurs",
+      "information": "Les auteurs sont toujours en mesure de créer des propositions"
+    },
+    "proposalValidation": "Validation de la proposition",
+    "validation": "Type",
+    "proposalThreshold": {
+      "label": "Seuil",
+      "information": "Le voting power minimum requis pour créer une proposition"
+    },
+    "allowOnlyAuthors": "Permettre uniquement aux auteurs de soumettre une proposition",
+    "editValidation": "Modifier la validation",
+    "selectValidation": "Sélectionner la validation",
+    "validationParameters": "Paramètres de validation",
+    "voting": "Vote",
+    "votingDelay": "Délai avant vote",
+    "votingPeriod": "Période de vote",
+    "hours": "Heures",
+    "days": "Jours",
+    "quorum": {
+      "label": "Quorum",
+      "information": "Le voting power minimum requis pour que la proposition passe"
+    },
+    "type": {
+      "label": "Type",
+      "information": "Le type de système de vote utilisé pour cet espace. (Appliqué à toutes les propositions futures)"
+    },
+    "anyType": "Tous",
+    "hideAbstain": "Ignorer les votes par abstention dans les résultats de vote basiques",
+    "customDomain": "Nom de domaine personnalisé",
+    "domain": {
+      "label": "Nom de domaine",
+      "placeholder": "p. ex. vote.balancer.fi",
+      "info": "To setup a custom domain you additionally need to open a pull request on github after you have created the space. {docs}"
+    },
+    "skin": "Thème",
+    "treasuries": {
+      "label": "Trésorerie",
+      "add": "Ajouter une trésorerie",
+      "edit": "Modifier la trésorerie",
+      "information": "Ajoutez des trésoreries à votre organisation pour les afficher dans votre espace"
+    },
+    "addPlugin": "Ajouter un plugin",
+    "editPlugin": "Modifier le plugin",
+    "pluginParameters": "Paramètres du plugin",
+    "proposal": {
+      "title": "Proposition",
+      "guidelines": {
+        "title": "Instructions",
+        "information": "Afficher un lien vers vos directives sur la création de propositions pour aider les utilisateurs à comprendre ce qui constitue une proposition valide"
+      },
+      "template": {
+        "title": "Modèle",
+        "information": "Créer chaque proposition avec un modèle pour aider les utilisateurs à comprendre quelles informations sont nécessaires"
+      }
+    }
+  },
+  "setup": {
+    "example": "ex : yam.eth",
+    "chooseExistingEns": "Choisissez un de vos domaines ENS existants pour créer un espace avec :",
+    "useSingleExistingEns": "Utiliser votre domaine ENS existant :",
+    "orRegisterNewEns": "Ou enregistrer un nouveau domaine :",
+    "demoTestnetEnsMessage": "To create a test space you need an ENS domain on {network}.",
+    "toCreateASpace": "Pour créer un espace, premièrement vous avez besoin d’un domaine ENS. En saisir un ci-dessous et suivre les instructions d’enregistrement ENS.",
+    "createASpace": "Créer un espace",
+    "registerEnsButton": "Enregistrer",
+    "supportedEnsTLDs": "Extensions de domaine prises en charge",
+    "helpDocsAndDiscordLinks": "Not sure how to setup your space? Learn more in the {docs} or join Snapshot {discord}.",
+    "setSpaceController": "Controller de l’espace",
+    "setSpaceControllerExists": "The snapshot text-record for this domain has already been set. Choose edit to change it, otherwise you can skip to the next step.",
+    "setSpaceControllerInfo": "Le contrôleur d'espace est le compte qui sera en mesure de gérer les paramètres de l'espace. Des contrôleurs d'espace supplémentaires (admins) peuvent être ajoutés ultérieurement.",
+    "setSpaceControllerInfoGnosisSafe": "Lors de la création d'un espace avec un Gnosis Safe, il est recommandé de définir l'adresse du Safe comme controller de l'espace. Si non, vous devez suivre quelques étapes supplémentaires. {link}",
+    "editSpaceController": "Modifier le controller sur ENS",
+    "setController": "Définir le controller",
+    "explainControllerAndEns": "Cette action nécessite une transaction sur {network} qui ajoutera un \"snapshot\" TEXT record à votre domaine ENS.",
+    "confirmToSetAddress": "Êtes-vous sûr de vouloir choisir {address} comme le controller de l’espace?",
+    "controllerHasAuthority": "Le controller a toute autorité sur les paramètres de l’espace",
+    "controller": "Controller",
+    "selectEnsForSpace": "Choisir l’adresse ENS",
+    "spaceOwnerAddressPlaceHolder": "ex : {address}",
+    "controllerAddress": "L’adresse du controller",
+    "updateController": "Mettre à jour le controller",
+    "seeOnEns": "Voir sur ENS",
+    "goToSettings": "Accéder les paramètres",
+    "setSpaceProfile": "Personnaliser votre espace",
+    "waitForTransaction": "La transaction doit être confirmée avant de pouvoir créer votre espace. {txUrl}",
+    "pleaseWaitMessage": "Cela peut prendre quelques minutes, veuillez attendre pendant que la transaction est confirmée",
+    "notControllerAddress": "Veuillez vous connecter avec l'adresse du controller {wallet} pour créer l'espace.",
+    "fillCurrentAccount": "Utiliser le compte connecté",
+    "domain": {
+      "title": "Configurez votre domaine d'espace",
+      "ensMessage": "Avant de pouvoir créer votre propre espace, vous avez besoin d'un domaine ENS sur le réseau principal Ethereum.",
+      "ensMessageTestnet": "You can also {link} on the Goerli testnet and mess with things there first.",
+      "tryDemo": "Essayer la démo",
+      "yourExistingSpaces": "Vos espaces existants",
+      "invalidEns": "This ENS name is invalid. Usually this is due the use of invalid characters during registration."
+    },
+    "strategy": {
+      "title": "Comment souhaitez-vous configurer votre stratégie de vote ?",
+      "subtitle": "Vous pouvez changer vos paramètres de stratégie à tout moment.",
+      "blockTitle": "Configurer la stratégie de vote",
+      "onePersonOneVote": {
+        "title": "Une personne, un vote",
+        "description": "Gérer une liste blanche de personnes qui peuvent voter ou simplement permettre à n'importe quelle adresse de voter. Chaque vote est égal et aucun jeton n'est requis",
+        "whitelistInformation": "Spécifiez les comptes pouvant voter",
+        "ticketInformation": "N'importe quel compte peut voter",
+        "votesEqualInfo": "Chaque vote est égal et aucun jeton n'est requis"
+      },
+      "tokenVoting": {
+        "title": "Vote pondéré par jeton",
+        "description": "Les votes sont pondérés par un jeton. Le jeton peut être un jeton ERC-20, ERC-721 ou ERC-1155",
+        "tokenNotFound": "Jeton introuvable",
+        "seeOnEtherscan": "Voir sur Etherscan"
+      },
+      "advanced": {
+        "title": "Paramètres personnalisés",
+        "description": "Sélectionnez jusqu'à 8 stratégies avec un vaste choix d'options. Si vous ne trouvez pas de stratégie adaptée à votre cas d'utilisation, vous pouvez créer la vôtre"
+      }
+    },
+    "validationTitle": "Qui peut gérer cet espace et créer des propositions ?"
+  },
+  "profile": {
+    "buttonEdit": "Modifier le profil",
+    "viewProfile": "Afficher le profil",
+    "about": {
+      "header": "À propos",
+      "joinedSpaces": "Espaces rejoints",
+      "createdSpaces": "Espaces créés",
+      "biography": "Biographie",
+      "notJoinSpacesYet": "N'a pas encore rejoint d'espaces",
+      "notCreatedSpacesYet": "N'a pas encore créé d'espaces",
+      "delegatorNetworkInfo": "Changer de réseau dans votre wallet",
+      "delegate": "Déléguer",
+      "delegated": "Délégué",
+      "delegateTo": "Déléguer à",
+      "delegateFor": "Délégue à",
+      "noDelegatorsMessage": "Aucune délégation sur {network}",
+      "notSupportedNetwork": "Actuellement, la délégation n’est pas compatible sur {network} "
+    },
+    "activity": {
+      "header": "Activité",
+      "votedFor": "Voté {choice}",
+      "today": "Aujourd'hui",
+      "thisWeek": "Cette semaine",
+      "olderThanWeek": "Older than a week",
+      "noActivity": "Pas encore d'activité"
+    },
+    "settings": {
+      "header": "Modifier le profil",
+      "name": "Nom",
+      "biography": "Biographie",
+      "namePlaceholder": "Saisir le nom",
+      "bioPlaceholder": "Raconter votre histoire",
+      "change": "Changer",
+      "remove": "Supprimer"
+    }
+  },
+  "notify": {
+    "youDidIt": "Tout est bon !",
+    "copied": "Copié !",
+    "proposalDeleted": "Proposition supprimée",
+    "somethingWentWrong": "Oups, une erreur s'est produite !",
+    "saved": "Enregistré !",
+    "delegationSuccess": "Délégation réussie",
+    "delegationRemoved": "Délégation retirée",
+    "proposalCreated": "Proposition créée",
+    "voteSuccessful": "Votre vote est enregistré !",
+    "ensSet": "ENS text record défini avec succès",
+    "transactionSent": "Transaction envoyée"
+  },
+  "explore": {
+    "createStrategy": "Créer une stratégie",
+    "createSkin": "Créer un thème",
+    "addNetwork": "Ajouter un réseau",
+    "createPlugin": "Créer un plugin",
+    "strategies": "stratégie(s)",
+    "skins": "thème(s)",
+    "networks": "réseau(x)",
+    "plugins": "plugin(s)",
+    "results": "résultat(s)",
+    "category": "Catégorie",
+    "categories": {
+      "all": "Tout",
+      "protocol": "Protocole",
+      "social": "Réseaux sociaux",
+      "investment": "Investissement",
+      "grant": "Bourse",
+      "service": "Service",
+      "media": "Média",
+      "creator": "Créateur/Créatrice",
+      "collector": "Collectionneur/Collectionneuse"
+    }
+  },
+  "voting": {
+    "selectVoting": "Sélectionner le système de vote",
+    "single-choice": "Vote à choix simple",
+    "approval": "Vote d'approbation",
+    "quadratic": "Vote quadratique",
+    "ranked-choice": "Vote préférentiel",
+    "weighted": "Vote pondéré",
+    "basic": "Vote basique",
+    "description": {
+      "single-choice": "Chaque votant ne peut effectuer qu'un seul choix.",
+      "approval": "Chaque votant peut effectuer un nombre indéfini de choix.",
+      "quadratic": "Chaque votant peut répartir ses droits de vote entre les différents choix. Les résultats sont calculés de manière quadratique.",
+      "ranked-choice": "Chaque votant peut effectuer plusieurs choix et les classer par préférence. Le système du second tour instantané est utilisé pour calculer les résultats.",
+      "weighted": "Chaque votant peut répartir ses droits de vote entre les différents choix.",
+      "basic": "Choix de vote unique avec trois choix: Pour, Contre ou S’abstenir"
+    }
+  },
+  "privacy": {
+    "label": "Confidentialité",
+    "title": "Sélectionner la confidentialité des votes",
+    "information": "Le type de confidentialité utilisé pour les propositions. (Appliqué à toutes les propositions futures)",
+    "any": "Any",
+    "none": "Aucun",
+    "shutter": {
+      "label": "Shutter",
+      "description": "Les choix sont chiffrés et visibles seulement après la fin de la période de vote",
+      "tooltip": "La confidentialité est activée pour cette proposition. Tous les votes seront cryptés jusqu'à ce que la période de vote soit terminée et le score final soit calculé",
+      "url": "https://blog.shutter.network/announcing-shutter-governance-shielded-voting-for-daos/"
+    }
+  },
+  "validation": {
+    "label": "Validation",
+    "title": "Select voting validation",
+    "information": "Le type de validation utilisé pour déterminer si un utilisateur peut voter. (Appliqué à toutes les propositions futures)",
+    "any": {
+      "label": "Ouvert à tous",
+      "description": "Toute personne ayant du voting power peut voter."
+    },
+    "basic": {
+      "label": "Basic",
+      "description": "Use any strategy to determine if a user can vote.",
+      "invalidMessage": "You do not meet the minimum balance requirement to vote on this proposal. "
+    },
+    "passport-gated": {
+      "label": "Accès réservé au Gitcoin Passport",
+      "description": "Protégez vos propositions contre le spam et la manipulation des votes en exigeant que les utilisateurs aient un Gitcoin Passport.",
+      "invalidMessage": "You need a Gitcoin Passport with {amount} of the following stamps to vote on this proposal: {stamps}. "
+    },
+    "passport-weighted": {
+      "label": "Pondéré par Gitcoin Passport"
+    }
+  },
+  "safeSnap": {
+    "currentOutcome": "Résultats actuels",
+    "currentBond": "Caution actuelle",
+    "finalizedIn": "Terminé {0}",
+    "executableIn": "Exécutable {0}",
+    "finalOutcome": "Résultat",
+    "nextBond": "Ajouter une caution au résultat défini",
+    "setOutcomeTo": "Définir le résultat",
+    "claimBond": "Récupérer la caution",
+    "addBatch": "Ajouter un lot de transactions",
+    "batch": "Lot de transactions",
+    "transactions": "Transactions",
+    "to": "Vers (adresse)",
+    "invalidAddress": "Adresse invalide",
+    "invalidAmount": "Montant invalide",
+    "invalidValue": "Valeur incorrecte",
+    "invalidAbi": "ABI invalide",
+    "invalidData": "Données invalides",
+    "value": "Valeur (wei)",
+    "data": "Données",
+    "noCollectibles": "Aucun objet de collection",
+    "asset": "Actif",
+    "amount": "Montant ",
+    "type": "Type",
+    "transferFunds": "Virer des fonds",
+    "transferNFT": "Transférer un NFT",
+    "contractInteraction": "Interaction avec le contrat",
+    "rawTransaction": "Transaction brute",
+    "addTransaction": "Ajouter une transaction",
+    "transactionLabels": {
+      "contractInteraction": "{functionName}() - {amount} wei vers {address}",
+      "transferFunds": "Transférer {amount} {tokenSymbol} vers {address}",
+      "transferNFT": "Envoyer {name} #{id} vers {address}",
+      "raw": "Envoyer {amount} wei vers {address}"
+    },
+    "labels": {
+      "request": "Exécuter la requête",
+      "setOutcome": "Définir un résultat",
+      "changeOutcome": "Modifier le résultat",
+      "executeTxs": "Exécuter le lot de transactions {0} sur {1}",
+      "executed": "Toutes les transactions ont été exécutées",
+      "noTransactions": "There are no transactions to execute",
+      "rejected": "Proposal rejected",
+      "error": "Une erreur s'est produite",
+      "connectWallet": "Connectez le wallet pour voir les détails de l'exécution",
+      "switchChain": "Passez au wallet {0} pour demander l'exécution",
+      "question": "Cette proposition a-t-elle été adoptée et satisfait-elle aux",
+      "criteria": "critères d'acceptation ?",
+      "proposalPassed": "Did the proposal pass?",
+      "expired": "La proposition a expiré",
+      "approveBond": "Approve bond",
+      "confirmVoteResults": "Click to confirm the proposal passed",
+      "executeTxsUma": "Execute transaction batch",
+      "deleteDisputedProposal": "Delete disputed proposal",
+      "confirmVoteResultsToolTip": "Make sure this proposal was approved by this Snapshot vote before proposing on-chain. If the Snapshot vote rejected the proposal, the on-chain proposal will be rejected as well and you will lose your bond.",
+      "approveBondToolTip": "On-chain proposals require a bond from the proposer. This will approve tokens from your wallet to be posted as a bond. If you make an invalid proposal, it will be disputed and you will lose your bond. If the proposal is valid, your bond will be returned when the transactions are executed.",
+      "requestToolTip": "This will propose the transactions from this Snapshot vote on-chain. After a challenge window, if the proposal is valid, the transactions can be executed and your bond will be returned.",
+      "executeToolTip": "This will execute the transactions from this proposal and return the proposer's bond."
+    }
+  },
+  "poap": {
+    "no_poap_header": "Il n'y a pas encore de POAP pour cette proposition :'(",
+    "no_voted_header": "Votez pour obtenir ce POAP",
+    "unclaimed_header": "Mint votre POAP «J’ai voté»",
+    "claimed_header": "Félicitations! Le POAP a été réclamé à votre collection",
+    "loading_header": "Le POAP est en cours d’ajout à votre collection",
+    "button_claim": "Mint",
+    "button_show": "Parcourir la collection",
+    "success_claim": "Le POAP a été réclamé à votre collection",
+    "error_claim": "Un problème est survenu lors de la création du token"
+  },
+  "progress": {
+    "progress": "Progression",
+    "inProgress": "En cours",
+    "completed": "Completed",
+    "complete": "Complete",
+    "newStep": "Nouvelle étape",
+    "description": "Description",
+    "add": "Ajouter",
+    "deleteStep": "Supprimer l’étape",
+    "deleteConfirm": "Confirmez-vous la suppression ?",
+    "delete": "Supprimer",
+    "cancel": "Annuler",
+    "comeBack": "Revenez une fois le vote terminé pour voir comment cette proposition progresse!",
+    "confirmSignature": "Signer ce message nous permettra d'autoriser votre demande de mise à jour de la progression de votre proposition.",
+    "wentWrong": "Une erreur s'est produite.",
+    "voting": "Voting",
+    "soon": "Soon"
+  },
+  "charts": {
+    "charts": "Tableaux",
+    "noVotesYet": "Il n’y a pas encore de votes à visualiser.",
+    "totalVotesPerDay": "Nombre total de votes par jour",
+    "shareOfVotingPower": "Partage du voting power",
+    "votingPowerPerDay": "Voting power par jour"
+  },
+  "comment_box": {
+    "title": "Boîte de commentaires",
+    "add": "Ajoutez vos commentaires ici",
+    "submit": "Valider",
+    "preview": "Aperçu",
+    "continue_editing": "Poursuivre la modification",
+    "edit": "Modifiez votre réponse ici",
+    "edit_button": "Modifier",
+    "dismiss": "Ignorer",
+    "delete": "Supprimer",
+    "add_reply": "Ajoutez votre réponse ici",
+    "edit_comment": "Modifier le commentaire",
+    "edit_modal": "Confirmez-vous la modification ?",
+    "yes": "Oui",
+    "no": "Non",
+    "delete_comment": "Supprimer le commentaire",
+    "delete_modal": "Confirmez-vous la suppression ?",
+    "error": "Oups, une erreur s'est produite",
+    "replies": "réponses",
+    "hide": "Masquer",
+    "show": "Voir",
+    "reply": "Répondre",
+    "load_more": "Afficher plus"
+  },
+  "page": {
+    "title": {
+      "home": "Snapshot",
+      "setup": "Créer un espace",
+      "timeline": "Chronologie",
+      "notifications": "Notifications",
+      "explore": "Explorer",
+      "playground": "Playground",
+      "space": {
+        "create": "Créer une proposition {space}",
+        "about": "À propos de {space}",
+        "proposals": "Propositions {space}",
+        "proposal": "Proposition {space}: {proposal}",
+        "settings": "Paramètres {space}"
+      },
+      "strategy": "Stratégie {key}",
+      "delegate": "Déléguer",
+      "ranking": "Classement"
+    }
+  },
+  "hal": {
+    "title": "Suivre les propositions pour {spaceName}",
+    "text": "Recevoir des notifications chaque fois qu’une nouvelle proposition est créée ou se termine"
+  },
+  "timeUnits": {
+    "second": "1 seconde | {n} secondes",
+    "minute": "1 minute | {n} minutes",
+    "hour": "1 heure | {n} heures",
+    "day": "1 jour | {n} jours",
+    "week": "1 semaine | {n} semaines",
+    "month": "1 mois | {n} mois",
+    "year": "1 an | {n} ans"
+  },
+  "unsupportedNetwork": {
+    "unsupportedNetwork": "Réseau incompatible",
+    "switchNetworkToNetwork": "Pour continuer, vous devez changer le réseau de votre wallet à {network}.",
+    "switchToNetwork": "Passer au réseau {network}",
+    "goToDemoSite": "Accéder le site démo"
+  },
+  "treasury": {
+    "title": "Trésorerie",
+    "wallets": {
+      "title": "Portefeuilles",
+      "empty": "Cet espace n'a pas encore de trésorerie",
+      "addTreasury": "Ajouter une trésorerie"
+    },
+    "assets": {
+      "title": "Actifs",
+      "empty": "Ce contrat ne contient aucun actif"
+    },
+    "24hChange": "Changement sur 24h"
+  },
+  "newsletter": {
+    "yourEmail": "Votre e-mail",
+    "title": "Recevoir les dernières mises à jour de Snapshot"
+  },
+  "joinCommunity": "Rejoindre la communauté Snapshot",
+  "header": {
+    "title": "Là où les décisions sont prises",
+    "description": "Snapshot est une plateforme de gouvernance communautaire gratuite et open-source. Créez votre propre espace dès maintenant et commencez à prendre des décisions !"
+  },
+  "aboutPage": {
+    "description": "Snapshot est une plateforme de gouvernance décentralisée qui facilite la création et le vote sur les propositions - le tout sans dépenser une fortune en frais de gaz ! De plus, notre système flexible prend en charge différents types et stratégies de vote, afin que vous puissiez adapter le processus de vote à vos besoins.",
+    "subHeader": "La gouvernance devrait être simple",
+    "subDescription": "La gouvernance Web3 ne doit pas être compliquée. Snapshot est la solution idéale pour les organisations qui cherchent un moyen simple et efficace pour organiser leur communauté ou leur organisation."
+  },
+  "footerView": {
+    "resources": "Ressources",
+    "about": "À propos",
+    "blog": "Blog",
+    "jobs": "Jobs",
+    "discussions": "Discussions",
+    "github": "GitHub",
+    "docs": "Documentation",
+    "support": "Support",
+    "hiring": "Rejoignez-nous !"
+  }
+}

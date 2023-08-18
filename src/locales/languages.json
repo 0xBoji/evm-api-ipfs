@@ -1,0 +1,21 @@
+{
+  "en-US": {
+    "name": "English"
+  },
+  "zh-CN": {
+    "name": "Chinese",
+    "nativeName": "简体中文"
+  },
+  "ja-JP": {
+    "name": "Japanese",
+    "nativeName": "日本語"
+  },
+  "ko-KR": {
+    "name": "Korean",
+    "nativeName": "한국어"
+  },
+  "fr-FR": {
+    "name": "French",
+    "nativeName": "Français"
+  }
+}
