@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
     <img src="public/icon.svg" height="70" alt="Snapshot Logo">
     <h1>Truscore</h1>
@@ -72,3 +73,7 @@ By default your instance will connect to the hub at `https://testnet.snapshot.or
 ## License
 
 Snapshot is open-sourced software licensed under the © [MIT license](LICENSE).
+=======
+#auth HoangTran
+# EVM PROJECT
+>>>>>>> 102fc464508b9afc032da99ac8aca73ef6901351
