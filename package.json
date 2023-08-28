@@ -49,7 +49,7 @@
     "@near-wallet-selector/core": "^8.4.0",
     "@near-wallet-selector/here-wallet": "^8.4.0",
     "@near-wallet-selector/modal-ui": "^8.4.0",
-    "@near-wallet-selector/my-near-wallet": "^8.4.0",
+    "@near-wallet-selector/my-near-wallet": "^8.5.1",
     "@near-wallet-selector/near-wallet": "^8.4.0",
     "@near-wallet-selector/nearfi": "^8.4.0",
     "@near-wallet-selector/nightly-connect": "^8.4.0",
